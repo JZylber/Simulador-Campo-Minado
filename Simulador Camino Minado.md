@@ -2,7 +2,7 @@
 ## Corporación A.C.M.E. 
 
 ### Origen
-En el marco de las acciones de uno de nuestros principales clientes, *Wile E. Coyote*, nuestra corporación se ve obligada a diseñar uns sistema de detección, desactivación y recuperación de minas. Esto se debe a que dicho cliente, con el objetivo de cazar a cierto ave no voladora, ha minado una infinidad de caminos, muchos de ellos usados por nuestra empresa. Es por eso que para evitar mayores pérdidas materiales a nuestra flota de transporte, hemos decidido limpiar de minas los caminos recorridos por nuestros camiones. A su vez, la recuperación del material explosivo nos permite revenderlo al cliente en cuestión, agigantando nuestras ganancias.
+En el marco de las acciones de uno de nuestros principales clientes, *Wile E. Coyote*, nuestra corporación se ve obligada a diseñar un sistema de detección, desactivación y recuperación de minas. Esto se debe a que dicho cliente, con el objetivo de cazar a cierto ave no voladora, ha minado una infinidad de caminos, muchos de ellos usados por nuestra empresa. Es por eso que para evitar mayores pérdidas materiales a nuestra flota de transporte, hemos decidido limpiar de minas los caminos recorridos por nuestros camiones. A su vez, la recuperación del material explosivo nos permite revenderlo al cliente en cuestión, agigantando nuestras ganancias.
 
 En este contexto, la corporación A.C.M.E. encarga el creado un simulador de limpieza de campo minado, como prueba de concepto antes de desarrollar una prueba de campo.
 
