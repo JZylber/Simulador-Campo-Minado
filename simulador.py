@@ -9,14 +9,14 @@ while True:
     5. Cerrar el programa
     Ingresar la opción que desea correr: 
     """))
-    if opcion < 1 and opcion > 5:
+    if opcion < 1 or opcion >= 5:
         print("Opción Inválida. Ingrese otra opción.")
-    if opcion == 1:
+    elif opcion == 1:
         longitud = int(input("Ingrese la longitud del camino: "))
         while len(camino) < longitud:
             baldosa = input("Ingrese el contenido de la siguiente baldosa: ")
             camino.append(baldosa)
-    if opcion == 2:
+    elif opcion == 2:
         posicion_camino = 0
         while posicion_camino < len(minas):
             baldosa_observada = camino[posicion_camino]
@@ -29,7 +29,7 @@ while True:
             while numero_de_mina < len(minas):
                 camino[minas[numero_de_mina]] = "D"
                 print(f"Se desactivó una mina en la posición {numero_de_mina}")
-    if opcion == 4:
+    elif opcion == 4:
         posicion_camino = 0
         minas_recuperadas = 0
         while posicion_camino <= len(camino):
@@ -43,5 +43,5 @@ while True:
                 break
             posicion_camino += 1
         print(f"Se recorrió exitosamente el camino y se recuperaron {minas_recuperadas} minas")
-    if opcion == 5:
+    elif opcion == 5:
         break
